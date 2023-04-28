@@ -1,0 +1,18 @@
+
+
+#imagenes{
+
+    object-fit: contain;
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 100%;
+    border: 3px solid #fff1f1;
+    position: relative;
+    right: -1065px;
+
+}
+
+body{
+    background-color: rgb(87, 87, 87);
+}
