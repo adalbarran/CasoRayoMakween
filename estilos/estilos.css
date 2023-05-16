@@ -5,9 +5,9 @@
     height: 50px;
     margin-top: 10px;
     border-radius: 100%;
-    border: 3px solid #fff1f1;
+    /* border: 3px solid #fff1f1; */
     position: relative;
-    right: -1500px;
+    right: -1450px;
 
 }
 
@@ -27,15 +27,69 @@ h2{
 }
 
 
+
+
+
+#imagenfooter{
+            object-fit: contain;
+    width: 50px;
+    height: 50px;   
+}
+
+
+#imagenredes{
+    width: 5rem; 
+    border-color: rgb(39, 35, 35);
+    border-radius: 25%;
+}
+
+
+ .container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ .container figure{
+    width: 320px;
+    height: 250px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+}
+
+
+.container figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 50ms ease;
+}
+
+.container figure img{
+    transform: scale(1.2);
+    cursor: pointer;
+}   
+
+
+
+
+
+
+
+
+
+
+
 #imagenescarrusel{
 
-    object-fit: contain;
 
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     padding: 1em;
 
-    border-radius: 30px;
+    border-radius: 50px;
 
 
 }
@@ -57,15 +111,28 @@ body{
 }
 
 
-/** Contact**/
 
 .form {
     background-color: #757575;
-    width: min(60rem, 100%); /** Utilizar el valor mas pequeño**/
+    width: min(60rem, 100%);
+    height:40rem;
     margin: 0 auto;
     padding: 2rem;
     border-radius: 1rem;
+    text-align: center;
+    margin-top: 150px;
 }
+
+
+
+#btn{
+    margin-top: -400px;
+}
+
+
+
+/* FORMULARIO */
+
 
 .form fieldset{
     border: none;
@@ -126,7 +193,15 @@ body{
     color: rgb(199, 191, 191);
 }
 
-.service img {
-    border-radius: .5rem;
+
+
+
+
+#Footer{
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
