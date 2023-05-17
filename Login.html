@@ -53,29 +53,26 @@
 
         <section>
             <!-- <h2>Contacto</h2> -->
-            <form class="form container-form" action="Ing_contacto.html" method="get">
+            <form class="form container-form" action="Ing_login.html" method="get">
                 <fieldset>
-                    <legend class="text-center header">Formulario Contacto</legend>
+                    <legend class="text-center header">Login</legend>
 
                     <div class="container-camp">
                         <div class="camp">
-                            <label>Nombre</label>
-                            <input class="input-text" type="text" placeholder="Tu Nombre" id="nombre" required>
+                            <label>Nombre de usuario</label>
+                            <input class="input-text" type="text" placeholder="Nombre de usuario" id="nombre" required>
                         </div>
     
                         <div class="camp">
-                            <label>Correo</label>
-                            <input class="input-text" type="email" placeholder="Tu Correo" id="correo" required> 
+                            <label>Contraseña</label>
+                            <input class="input-text" type="password" placeholder="Contraseña" id="contraseña" required> 
                         </div>
     
-                        <div class="camp">
-                            <label>Mensaje</label>
-                            <textarea class="input-text" placeholder="Comentarios/Sugerencias..." id="mensaje" required></textarea>
-                        </div>
+
                     </div>
 
                     <div class="align-right flex">
-                        <button id = "btn"class="btn btn-primary btn-lg" type="button" onclick="valForm1()">Enviar</button>
+                        <button id = "btn"class="btn btn-primary btn-lg" type="button" onclick="valForm2()">Enviar</button>
                     </div>
                 </fieldset>
             </form>
