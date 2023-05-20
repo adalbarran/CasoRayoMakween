@@ -118,29 +118,6 @@ function valForm2(){
         return false;
     }
 
-    // else{
-    //     var expresion = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
-    //     if(!expresion.test(vContra)){
-    //         Err_color("contraseña");
-    //         Err_Contenido(" formato de contraseña no admitido");
-    //         return false;
-    //     }
-    // }
-
-    // if(vMensaje=="" || vMensaje==null ) {
-    //     Err_color("mensaje")
-    //     Err_Contenido("mensaje")
-    //     return false;
-    // }
-
-    // else{
-    //     var expresion = /^[a-zA-ZñÑáéíóúÁÉÍÓÚ ]*$/;
-    //     if(!expresion.test(vMensaje)){
-    //         Err_color("mensaje");
-    //         Err_Contenido(" mensaje no admitido");
-    //         return false;
-    //     }
-    // }
 
     $('form').submit();
     return true;
